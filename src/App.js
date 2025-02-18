@@ -7,7 +7,6 @@ function App() {
   return (
     <Router>
       <Routes>
-       
         <Route path="/" element={<Header />} />
         <Route path="/content" element={<Content />} />
       </Routes>
