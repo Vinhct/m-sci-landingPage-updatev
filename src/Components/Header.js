@@ -42,7 +42,7 @@ const Header = ({ scrollToContent }) => {
           <span className="absolute inset-0 w-full h-full shadow-[inset_0_0_10px_#00ffff,inset_0_0_20px_#ff00ff] opacity-50 group-hover:opacity-100"></span>
 
           {/* Button text */}
-          <span className="relative z-10 skew-x-12">PLAY NOW</span>
+          <a href="https://t.me/musksci_bot" className="relative z-10 skew-x-12">PLAY NOW</a>
         </button>
       </nav>
 
@@ -74,7 +74,10 @@ const Header = ({ scrollToContent }) => {
           </h1>
           <p className="text-lg mb-8">Join us for an unforgettable experience!</p>
           {/* Nút GET STARTED cuộn xuống Content */}
-          <button class="  shadow shadow-cyan-400 p-3  text-lg rounded-lg transition-opacity relative overflow-hidden  before:absolute before:inset-0 before:bg-cyan-500 before:transform before:-translate-x-full before:transition-transform before:duration-300 hover:before:translate-x-0 " onClick={scrollToContent}><span class="relative z-10 flex justify-center gap-2 items-center">GET STARTED</span></button>
+          <button class="  shadow shadow-cyan-400 p-3  text-lg rounded-lg transition-opacity relative overflow-hidden  
+          before:absolute before:inset-0 before:bg-cyan-500 before:transform before:-translate-x-full before:transition-transform 
+          before:duration-300 hover:before:translate-x-0 " onClick={scrollToContent}><span class="relative z-10 flex justify-center 
+          gap-2 items-center">GET STARTED</span></button>
         </div>
       </div>
     </div>
