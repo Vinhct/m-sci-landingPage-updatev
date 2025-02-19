@@ -433,6 +433,14 @@ const Content = () => {
         </section>
 
       </div>
+      {/* Nút Về Đầu Trang */}
+    <div className="flex justify-center mt-6">
+        <button 
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
+            className="px-6 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-yellow-400 transition duration-300">
+            Về Đầu Trang
+        </button>
+    </div>
     </div>
   );
 };
